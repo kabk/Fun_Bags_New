@@ -14,6 +14,11 @@
 		1D51483719F6E43D00E3DEE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D51483619F6E43D00E3DEE0 /* Images.xcassets */; };
 		1D51483A19F6E43D00E3DEE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D51483819F6E43D00E3DEE0 /* LaunchScreen.xib */; };
 		1D51484619F6E43D00E3DEE0 /* Fun_Bags_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D51484519F6E43D00E3DEE0 /* Fun_Bags_2Tests.m */; };
+		1DD2A11119F81A2400EE4878 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2A11019F81A2400EE4878 /* secondViewController.m */; };
+		1DD2A11419F81A9200EE4878 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2A11319F81A9200EE4878 /* WebViewController.m */; };
+		1DD2A12C1A07B41000EE4878 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2A12B1A07B41000EE4878 /* DrawViewController.m */; };
+		1DD2A1311A07B64500EE4878 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2A12E1A07B64500EE4878 /* ACEDrawingTools.m */; };
+		1DD2A1321A07B64500EE4878 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2A1301A07B64500EE4878 /* ACEDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		1D51483F19F6E43D00E3DEE0 /* Fun Bags 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun Bags 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D51484419F6E43D00E3DEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D51484519F6E43D00E3DEE0 /* Fun_Bags_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fun_Bags_2Tests.m; sourceTree = "<group>"; };
+		1DD2A10F19F81A2400EE4878 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		1DD2A11019F81A2400EE4878 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		1DD2A11219F81A9200EE4878 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		1DD2A11319F81A9200EE4878 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		1DD2A12A1A07B41000EE4878 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		1DD2A12B1A07B41000EE4878 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		1DD2A12D1A07B64500EE4878 /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingTools.h; sourceTree = "<group>"; };
+		1DD2A12E1A07B64500EE4878 /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingTools.m; sourceTree = "<group>"; };
+		1DD2A12F1A07B64500EE4878 /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingView.h; sourceTree = "<group>"; };
+		1DD2A1301A07B64500EE4878 /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,10 @@
 		1D51482819F6E43D00E3DEE0 /* Fun Bags 2 */ = {
 			isa = PBXGroup;
 			children = (
+				1DD2A12D1A07B64500EE4878 /* ACEDrawingTools.h */,
+				1DD2A12E1A07B64500EE4878 /* ACEDrawingTools.m */,
+				1DD2A12F1A07B64500EE4878 /* ACEDrawingView.h */,
+				1DD2A1301A07B64500EE4878 /* ACEDrawingView.m */,
 				1D51482D19F6E43D00E3DEE0 /* AppDelegate.h */,
 				1D51482E19F6E43D00E3DEE0 /* AppDelegate.m */,
 				1D51483019F6E43D00E3DEE0 /* ViewController.h */,
@@ -89,6 +108,12 @@
 				1D51483619F6E43D00E3DEE0 /* Images.xcassets */,
 				1D51483819F6E43D00E3DEE0 /* LaunchScreen.xib */,
 				1D51482919F6E43D00E3DEE0 /* Supporting Files */,
+				1DD2A10F19F81A2400EE4878 /* secondViewController.h */,
+				1DD2A11019F81A2400EE4878 /* secondViewController.m */,
+				1DD2A11219F81A9200EE4878 /* WebViewController.h */,
+				1DD2A11319F81A9200EE4878 /* WebViewController.m */,
+				1DD2A12A1A07B41000EE4878 /* DrawViewController.h */,
+				1DD2A12B1A07B41000EE4878 /* DrawViewController.m */,
 			);
 			path = "Fun Bags 2";
 			sourceTree = "<group>";
@@ -219,8 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD2A12C1A07B41000EE4878 /* DrawViewController.m in Sources */,
+				1DD2A11119F81A2400EE4878 /* secondViewController.m in Sources */,
+				1DD2A11419F81A9200EE4878 /* WebViewController.m in Sources */,
+				1DD2A1321A07B64500EE4878 /* ACEDrawingView.m in Sources */,
 				1D51483219F6E43D00E3DEE0 /* ViewController.m in Sources */,
 				1D51482F19F6E43D00E3DEE0 /* AppDelegate.m in Sources */,
+				1DD2A1311A07B64500EE4878 /* ACEDrawingTools.m in Sources */,
 				1D51482C19F6E43D00E3DEE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = "Fun Bags 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = "Fun Bags 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +446,7 @@
 				1D51484B19F6E43D00E3DEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D51484C19F6E43D00E3DEE0 /* Build configuration list for PBXNativeTarget "Fun Bags 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +455,7 @@
 				1D51484E19F6E43D00E3DEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
